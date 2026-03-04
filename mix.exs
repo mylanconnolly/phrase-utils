@@ -34,7 +34,8 @@ defmodule PhraseUtils.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"GitHub" => @source_url}
+      links: %{"GitHub" => @source_url},
+      files: ~w(lib mix.exs README.md LICENSE usage-rules)
     ]
   end
 
